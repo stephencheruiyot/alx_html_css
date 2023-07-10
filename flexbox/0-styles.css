@@ -183,6 +183,7 @@
      [class*= "row"]
   .row {
     display: flex;
+    
   }
 
   ul.row {
@@ -190,7 +191,8 @@
     padding: 0;
     list-style: none;
   }
-  
+
+ 
 
   
   [class*='col-'] {
