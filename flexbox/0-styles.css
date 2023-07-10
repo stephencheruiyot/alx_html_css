@@ -180,7 +180,8 @@
   
   /* Grid
       ============================= */
-  .row::after{
+     [class*= "row"]
+  .row {
     display: flex;
   }
 
