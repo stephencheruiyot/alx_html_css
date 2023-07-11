@@ -211,13 +211,13 @@
   
   .nav {
     display:flex;
-    margin: var(--nav-item-margin);
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
   }
-  
+  .nav-item+ .nav-item{margin: var(--nav-item-margin);}
+
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
