@@ -208,6 +208,11 @@
   .navbar-menu {
     float: right;
   }
+
+  [class*= nav] 
+
+  .nav.nav-item + .nav-item
+  
   
   .nav {
     display:flex;
@@ -216,7 +221,8 @@
     list-style: none;
     text-align: center;
   }
-  .nav.nav-item+ .nav-item{margin: var(--nav-item-margin);}
+  
+  
 
   .nav .nav-item {
     font-family: var(--nav-item-font-family);
