@@ -376,19 +376,16 @@
   }
   /* Section Latest news ============================= */
 
- .section-latest-news {
+ .section-latest-news .row {
     display:flex;
   flex-direction: row-reverse;
  }
+  /* Section SERVICES ============================= */
 
- /* Section SERVICES ============================= */
-
- .row .section-services {
-    display: flex;
+  .section-services .row {
+    flex-wrap:wrap
+  }
   
-  flex-wrap: wrap;
-}
-
   /*** 4. CARD ***/
   
   /* Card (all styles)
