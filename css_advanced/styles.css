@@ -1,0 +1,148 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Align sections into rows */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*header and banner*/
+  header {
+    width: 1103.4078369140625px;
+    height: 29.46099090576172px;
+    top: 35.02320098876976px;
+    left: 171.5922088623048px;
+    padding: 0px 0.00006103515625px 0px 0px;
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  main {
+    width: 1440px;
+    height: 1093px;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    z-index: -100px;
+
+  }
+  #testimonial {
+    background-color: #C271FF;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 392px;
+    top: 1093.0000000000002px;
+    left: -0.9999999999998863px;
+    position: relative;
+
+  }
+    #tutorials {
+     width: 1228px;
+    height: 450px;
+    top: 1572.0000000000002px;
+    left: 106.00000000000011px;
+    background-color:none;
+    
+}
+#membership {
+    width: 1228px;
+    height: 450px;
+    top: 1572.0000000000002px;
+    left: 106.00000000000011px;
+    position: relative;
+    background-color: #071629;
+    
+    #FAQ {
+        width: 920px;
+    height: 707px;
+    top: 2678px;
+    left: 249.0000000000001px;
+    background-color: #071629;
+    position: relative;
+    
+    #footer {
+        width: 1440px;
+    height: 249px;
+    top: 3469px;
+    background-color: #071629;
+    position: relative;
+
+
+    }
+    
+
+    }
+
+}
+    button {
+     width: 162px;
+    height: 44px;
+    top: 419.0000000000002px;
+    left: 639.0000000000001px;
+
+    } 
+  
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  video-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .block-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .block-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .row-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Add additional styling as needed */
+  
+  
