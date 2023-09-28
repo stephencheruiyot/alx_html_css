@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="#" method="post" enctype="multipart/form-data" id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <p>Select feedback options:</p>
+        <input type="checkbox" id="excellent" name="feedback" value="excellent">
+        <label for="excellent">Excellent</label><br>
+
+        <input type="checkbox" id="good" name="feedback" value="good">
+        <label for="good">Good</label><br>
+
+        <input type="checkbox" id="average" name="feedback" value="average">
+        <label for="average">Average</label><br>
+
+        <input type="checkbox" id="poor" name="feedback" value="poor">
+        <label for="poor">Poor</label><br>
+
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" accept=".pdf, .doc, .docx" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        // Custom validation to ensure at least one checkbox is checked
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            const checkboxes = document.querySelectorAll('input[name="feedback"]');
+            let checkboxChecked = false;
+            
+            checkboxes.forEach(function(checkbox) {
+                if (checkbox.checked) {
+                    checkboxChecked = true;
+                }
+            });
+
+            if (!checkboxChecked) {
+                alert('Please select at least one feedback option.');
+                event.preventDefault(); // Prevent form submission
+            }
+        });
+    </script>
+</body>
+</html>
